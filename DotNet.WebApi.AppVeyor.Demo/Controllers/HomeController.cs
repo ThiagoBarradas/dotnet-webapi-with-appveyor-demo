@@ -5,7 +5,7 @@ using System.Web.Http;
 
 namespace DotNet.WebApi.AppVeyor.Demo.Controllers
 {
-    public class HomeController : ApiController
+    public class HomeController : ApiControlle
     {
         [HttpGet]
         [Route("")]
