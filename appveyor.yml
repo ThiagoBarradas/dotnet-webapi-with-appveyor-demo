@@ -10,3 +10,4 @@ before_build:
 
 build:
   project: DotNet.WebApi.AppVeyor.Demo/DotNet.WebApi.AppVeyor.Demo.csproj
+  publish_wap: true
