@@ -14,7 +14,7 @@ namespace DotNet.WebApi.AppVeyor.Demo.Controllers
             Message message = new Message();
 
             message.Title = "Hey Jude";
-            message.Content = "don't be afraid";
+            message.Content = "don't let me down";
 
             return Request.CreateResponse(HttpStatusCode.OK, message);
         }
