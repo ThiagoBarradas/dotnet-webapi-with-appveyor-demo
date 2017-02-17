@@ -9,4 +9,4 @@ before_build:
 - nuget
 
 build:
-  project: MundiPagg.Analytics.Api/MundiPagg.Analytics.Api.csproj
+  project: DotNet.WebApi.AppVeyor.Demo/DotNet.WebApi.AppVeyor.Demo.csproj
