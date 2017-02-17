@@ -11,3 +11,7 @@ before_build:
 build:
   project: DotNet.WebApi.AppVeyor.Demo.sln
   publish_wap: true
+
+deploy:
+  provider: Environment
+  name: AppDemo Production
