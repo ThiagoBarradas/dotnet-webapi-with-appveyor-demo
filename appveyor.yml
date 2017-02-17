@@ -6,7 +6,7 @@ configuration:
 - Release
 
 before_build:
-- nuget
+- nuget restore
 
 build:
   project: DotNet.WebApi.AppVeyor.Demo.sln
