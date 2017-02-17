@@ -9,5 +9,5 @@ before_build:
 - nuget
 
 build:
-  project: DotNet.WebApi.AppVeyor.Demo/DotNet.WebApi.AppVeyor.Demo.csproj
+  project: DotNet.WebApi.AppVeyor.Demo.sln
   publish_wap: true
