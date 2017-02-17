@@ -14,6 +14,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{70E093
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.WebApi.AppVeyor.Demo.Tests", "DotNet.WebApi.AppVeyor.Demo.Tests\DotNet.WebApi.AppVeyor.Demo.Tests.csproj", "{B0B9580A-682E-460C-89FA-39BEFCDE7098}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A11E952-5F8E-4394-88A6-109E7B848164}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

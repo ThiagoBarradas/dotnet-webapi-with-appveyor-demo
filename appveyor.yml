@@ -1,0 +1,12 @@
+# AppVeyor Configuration
+
+platform: Any CPU
+
+configuration:
+- Release
+
+before_build:
+- nuget
+
+build:
+  project: MundiPagg.Analytics.Api/MundiPagg.Analytics.Api.csproj
